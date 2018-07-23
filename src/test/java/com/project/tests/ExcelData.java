@@ -1,5 +1,6 @@
 package com.project.tests;
 
-public class ExcelData {
+public class ExcelData 
+{
 
 }

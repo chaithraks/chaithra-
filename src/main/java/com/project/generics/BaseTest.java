@@ -10,7 +10,8 @@ import org.testng.annotations.BeforeMethod;
 public abstract class BaseTest implements Autoconstants
 {
 	public static WebDriver driver;
-@BeforeMethod
+
+	@BeforeMethod
 	public void preConditions()
 {
     System.setProperty(gecko_key,gecko_value); 

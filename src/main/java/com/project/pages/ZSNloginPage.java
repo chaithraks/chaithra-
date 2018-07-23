@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.project.generics.BasePage;
+//import com.project.generics.BasePage;
 
-public class ZSNloginPage extends BasePage
+public class ZSNloginPage 
 {
 @FindBy(id="login-email")
 private WebElement untb;
